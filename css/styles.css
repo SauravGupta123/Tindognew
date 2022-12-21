@@ -1,0 +1,149 @@
+#title{
+    background-color: #ff4c68;
+    color:white;
+}
+
+
+
+#header h1{
+    font-family: 'Montserrat', sans-serif;
+   font-weight: 600;
+    font-size:3.5rem;
+    line-height: 1.5;
+    
+    margin-bottom: 35px;
+}
+
+.container-fluid{
+    padding: 3% 15%;
+}
+.btn{
+    border-radius: 7px;
+}
+
+.btn-left{
+    margin-right: 12px;
+}
+
+.navbar-brand{
+    font-family: 'ubuntu', sans-serif;
+    font-size: 50px;
+
+}
+
+.navbar{
+    margin-bottom: 80px;
+}
+
+.nav-item{
+padding: 0px  15px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+
+.head-img img{
+    width: 60%;
+   transform: rotate(25deg);
+    right: 12px;
+    bottom: 51px;
+}
+
+
+
+/* features */
+#features{
+    margin-top: 6rem;
+    text-align: center;
+    
+}
+
+/* heat,bulleye aur circle wale icons */
+#features svg{
+margin-bottom: 2.25rem;
+}
+
+
+#features h3{
+font-family:  'Montserrat', sans-serif;
+font-size: 1.5rem;
+font-weight:900;
+}
+#features p{
+    font-family:  'Montserrat', sans-serif;
+    font-weight:400;
+    
+}
+
+.features-inside{
+    margin:50px auto;
+    
+}
+
+
+/* hovering check circle,heart */
+.bi:hover {
+    /* color:#ff4c68; */
+    fill:#ff4c68;
+}
+
+
+
+
+/* testimonials */
+
+#testimonials{
+
+    background-color: #ef8172;
+    color: white;
+    padding:4% 15%;
+    text-align: center;
+
+}
+
+
+/* testimonal text */
+
+#testimonials h2{
+    font-family:  'Montserrat', sans-serif;
+    /* color: white; */
+    font-size: 3rem;
+    font-weight: 600;
+    line-height:1.5;
+
+}
+
+.testimonial-image{
+    border-radius: 100%;
+    margin: 57px 3px;
+    width: 14%;
+    position: relative;
+    left: 68px;
+}
+
+.img-description{
+    position: relative;
+    left:71px;
+}
+
+
+#press{
+background-color: #ef8172;
+padding-bottom: 1%;
+text-align: center;
+
+}
+
+
+#press img{
+    width:13%;
+    margin:0px 69px;
+    align-items: left;
+    
+}
+
+
+/* testimonials */
