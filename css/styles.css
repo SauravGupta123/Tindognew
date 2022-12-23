@@ -1,5 +1,5 @@
 #title{
-    background-color: #ff4c68;
+    background-color: #fc425e;
     color:white;
 }
 
@@ -46,19 +46,24 @@ padding: 0px  15px;
 
 
 .head-img img{
-    width: 60%;
-   transform: rotate(25deg);
-    right: 12px;
-    bottom: 51px;
+    width: 21rem;
+    transform: rotate(25deg);
+    position: absolute;
+    z-index: 0;
+    top: 10rem;
+    left: 49rem;
 }
+
 
 
 
 /* features */
 #features{
-    margin-top: 6rem;
+    background-color: white;
+    /* margin-top: 0rem; */
     text-align: center;
-    
+    position:relative;
+    z-index: 1;
 }
 
 /* heat,bulleye aur circle wale icons */
@@ -99,7 +104,7 @@ font-weight:900;
 
     background-color: #ef8172;
     color: white;
-    padding:4% 15%;
+    /* padding:4% 15%; */
     text-align: center;
 
 }
@@ -122,6 +127,9 @@ font-weight:900;
     width: 14%;
     position: relative;
     left: 68px;
+}
+.carousel-inner{
+    padding: 2rem;
 }
 
 .img-description{
@@ -147,3 +155,26 @@ text-align: center;
 
 
 /* testimonials */
+
+.card{
+    height:329px;
+    width:488.38px;
+}
+
+/* pricing */
+#pricing{
+    text-align: center;
+}
+
+
+#pricing button{
+
+  max-width: 330px;
+}
+
+#pricing .row{
+    padding: 4% 0%;
+}
+
+
+/* pricing */
