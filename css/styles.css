@@ -46,11 +46,11 @@ padding: 0px  15px;
 
 
 .head-img img{
-    width: 21rem;
+    width: 18rem;
     transform: rotate(25deg);
     position: absolute;
     z-index: 0;
-    top: 10rem;
+    top: 12rem;
     left: 49rem;
 }
 
@@ -178,3 +178,78 @@ text-align: center;
 
 
 /* pricing */
+
+
+
+/* cta */
+#cta{
+
+    background-color: #fc425e;
+    text-align: center;
+    padding: 7.5rem 2rem;
+    margin-bottom: 6rem;    
+
+}
+
+#cta h3{
+    color: white;
+    font-size: 4rem;
+    font-family:  'Montserrat', sans-serif;
+    font-weight: bold;
+    margin-bottom: 4rem;;
+
+}
+ #cta button{
+    margin-left: 1rem;
+ }
+
+
+
+.social-media{
+    display: inline-block;
+    margin-left: 1rem;
+    margin-right: 1rem;
+ }
+
+
+/* cta ends*/
+
+
+/* footer */
+
+#footer{
+  
+    text-align: center;
+    
+}
+
+#footer p{
+    margin-top: 1rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 100;
+    font-size: 1.125rem;
+}
+
+/* footer ends */
+
+
+
+/* for tablet size */
+@media (max-width:990px){
+      #header{
+            text-align: center;
+
+      }      
+    .head-img img{
+        width: 28rem;
+        transform: rotate(0deg);
+        position: static;
+        margin-top: 4rem;
+    }
+
+    .mastiff{
+        display:block;
+        width: 100%;
+    }
+
+}
